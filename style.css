@@ -60,7 +60,8 @@ body {
    transition: all 0.3s ease-in-out;
 }
 
-.social:hover {
+.social:hover,
+.social:active {
    scale: 1.1;
    rotate: -2deg;
 }
@@ -79,6 +80,11 @@ body {
 .instagram {
    background-color: #d6249f;
    background: linear-gradient(135deg, #833ab4, #e1306c);
+}
+
+.feedback {
+   background: linear-gradient(135deg, #cccccc, #d6d6d6);
+   color: #525252;
 }
 
 .team-logo {
